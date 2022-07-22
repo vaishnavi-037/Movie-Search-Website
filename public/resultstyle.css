@@ -1,0 +1,39 @@
+
+.header{
+    padding: 5px 5px;
+    font-size: 25px;
+}
+.fa-film{
+    margin-right: 10px;
+}
+
+#movies img, #movie img{
+    width: 100%;
+}
+@media(min-width: 960px){
+    #movies .col-md-4 .well{
+        height: 500px;
+       }
+       
+       #movies .col-md-4 .img{
+           height: 300px;
+       }
+       
+}
+
+#movies .col-md-4 h5{
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 2px 2px;
+    margin: 10px 10px;
+}
+
+#movies .col-md-4 .btn{
+    padding: 2px 2px;
+    margin-bottom: 5px;
+}
+
+#movies .col-md-4 .well{
+    box-shadow: 10px 10px 5px grey;
+    margin: 45px 45px;
+  }
